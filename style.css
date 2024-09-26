@@ -1,0 +1,68 @@
+/* ESTILOS GENERALES */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div {
+    background-color: #f5f6f7;   
+}
+h1 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7rem;
+}
+/* HIPERVINCULOS */
+.custom-link {
+    color: #212529; /* Cambiar el color del enlace (no azul) */
+    text-decoration: none; /* Mantener el subrayado */
+  }
+.custom-link:hover {
+    color: black; /* Evitar que cambie de color al pasar el cursor */
+    text-decoration: none; /* Mantener el subrayado al pasar el cursor */
+  }
+
+/* BARRA DE NAVEGACION */
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand {
+    float: left;
+    text-align: left;
+}
+
+/* BOTONES */
+.btn{
+    border-width: 3px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.btn-outline-danger{
+    color: orange;
+    border-color: orange;
+}
+.btn-outline-danger:hover {
+    background-color: orange; /* Color de fondo cuando el cursor está sobre el botón */
+    border-color: orange;
+    color: white; /* Color del texto cuando el cursor está sobre el botón */
+}
+
+/* SECCION HERO */
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-blanco {
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+}
